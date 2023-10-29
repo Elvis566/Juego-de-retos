@@ -45,3 +45,16 @@ function guardar(){
         }
     }
   }
+
+  var boton = document.getElementById("b2");
+  var boton2 = document.getElementById("b1");
+
+  // Agrega un evento de clic al botón
+  boton.addEventListener("click", function() {
+      // Redirecciona a otra página
+      window.location.href = "../HTML/inicoSeccion.html";
+  });
+  boton2.addEventListener("click", function() {
+    // Redirecciona a otra página
+    window.location.href = "../HTML/juego.html";
+});

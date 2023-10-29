@@ -35,14 +35,30 @@ var reto = document.getElementById("reto");
 
 // console.log( Math.floor(Math.random() * 52))
 let c=0;
+let rondasJugadas = [];
+let contadorP = 0;
+for(let i=0; i<jugadores.length; i++){
+     rondasJugadas[i]=0;
+}
 function juego(){
-     if(c>jugadores.length-1){
+     if(c>=jugadores.length){
           c=0;
      }
      alert(`Este es el turno de ${jugadores[c]}`);
+     rondasJugadas[c]++;
      c++;
+     if(c>=jugadores.length){
+          contadorP++;
+     }
      let indice =Math.floor(Math.random() * 52);
      carta.src=  baraja[indice];
      reto.value = elementosArray[indice];
+}
+
+function finalizar(){
+     alert(`Se jugaron un total de: ${contadorP} partidas`)
+     for(let i = 0 ; i<jugadores.length ; i++){
+          alert(`${jugadores[i]} jugó ${rondasJugadas[i]} veces`);
+     }
 }
 

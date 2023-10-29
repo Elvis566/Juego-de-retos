@@ -1,0 +1,96 @@
+body {
+    /* Establecer la imagen de fondo */
+    background-image: url('https://www.diarioeltiempo.com.ar/contenido/noticias/original/1684242511.jpeg') ;
+    background-size: contain;
+/* Evitar que la imagen de fondo se repita */
+    background-repeat: no-repeat;
+    /* Fijar la imagen de fondo para que no se desplace con el contenido */
+    background-attachment: fixed;
+    /* Centrar la imagen de fondo en la pantalla */
+    background-position: center;
+    color:white;
+    border-radius: 3px;
+    text-align: center;
+  
+}
+#contenedor{
+   width: 35%;
+   font-size: 25px;
+    margin-top: 5%;
+    margin-right: 30%;
+}
+
+input{
+    width:200px ;
+    height: 22px;
+}
+
+#Agregar_Limpiar{
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 2%;
+    display: inline-block;
+    padding: 7px 20px; /* Ajusta el relleno según sea necesario */
+    background-color: #089f08; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border-radius: 5px; /* Bordes redondeados, ajusta según sea necesario */
+}
+#b1, #b2{
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    background-color: #9a1717; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border-radius: 5px; /* Bordes redondeados, ajusta según sea necesario */
+}
+#b1{
+    margin-right: 8px;
+    margin-top: 5%;
+}
+#regresar{
+    display: flex;
+    margin-right: 87%;
+    position: fixed;
+    top: 1%;
+    right: 0;
+    font-size: 20px;
+}
+
+
+#tabla{
+    margin-top: 2%;
+    width: 60%;
+    border-collapse: inherit;
+    font-size: 17px;
+}
+th{
+    background-color: #82f0ac;
+    color: black;
+}
+#eliminar{
+    width: 32%;
+    height: 5%;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 7px 15px; /* Ajusta el relleno según sea necesario */
+    background-color: #5c755c; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border-radius: 5px; /* Bordes redondeados, ajusta según sea necesario */
+}
+#delate{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 29%;
+    font-size: 27px;
+    margin-top: 7.8%;
+    margin-right: 5%;
+}
+
+#eli{
+width: 18%;
+margin-right: 5px;
+cursor: pointer;
+}

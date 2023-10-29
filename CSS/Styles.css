@@ -58,7 +58,7 @@ input{
 }
 
 
-#tabla{
+#miTabla{
     margin-top: 2%;
     width: 60%;
     border-collapse: inherit;
@@ -67,6 +67,7 @@ input{
 th{
     background-color: #82f0ac;
     color: black;
+
 }
 #eliminar{
     width: 32%;

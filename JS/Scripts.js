@@ -44,8 +44,8 @@ function guardar(){
         var celdas = filas[i].getElementsByTagName("td");
         // Verificar si la fila tiene celdas y el ID coincide
         if (celdas.length > 0 && celdas[0].innerHTML === Id_eliminar) {
-            mitabla.deleteRow(i);   
-            data.splice(i-1,1)  
+            mitabla.deleteRow(i); 
+            data.splice(i-1,1) 
             console.log(data);
             let c= total.innerHTML // Se le aasigna el valor de total a la nueva variable
             c= c-1; //C viene con la cantidad de usuarios pero se le asigna un decremento de -1 por cada click en el boton

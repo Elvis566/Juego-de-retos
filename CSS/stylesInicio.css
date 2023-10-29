@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Pacifico, sans-serif;
+    font-size: 18px;
+}
+
+#login-form{
+    width: 250px;
+    height: 230px;
+    display: block;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    background-image: url(../img/fondoInicio.jpg);
+    background-repeat: no-repeat;
+}
+#login-form div {
+    margin: 20px;
+    color: rgb(245, 245, 241) ;
+}
+button{
+    border-radius: 5px;
+    height: 25px;
+    font-family: Pacifico, sans-serif;
+    background-color: rgb(94, 94, 243);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(46, 209, 46);
+}

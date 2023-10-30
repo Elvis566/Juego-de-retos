@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<<<<<<< HEAD
     Yuseydi
+=======
+    <link rel="stylesheet" href="../CSS/Styles.css">
+>>>>>>> a2acbfd742973bbd2304021ede5a13831cbb5d72
 </head>
 <body>
-    
+    <center>
+      <div id="contenedor">                
+            <DIV>
+                <label>:: INGRESE SU USUARIO ::</label>
+                <BR>
+                <input type="text" id="usuario">
+                <button onclick="guardar(); limpiarInputs()" id="Agregar_Limpiar">AGREGAR</button>
+               
+            </DIV>
+            <br>
+            <DIV>
+                <label>::CANTIDAD DE JUGADORES ::</label> 
+                <br>
+                <span id="jugadores" onclick="restarContador()"></span>
+            </DIV>
+
+            <table border="2" id="miTabla" >
+                <thead>
+                    <tr>
+                        <th> ID </th>
+                        <th> NOMBRE DE USUARIO </th>
+                    </tr>
+                </thead>
+  
+                <tbody >
+
+                </tbody>
+            </table>
+
+            <div>
+                <button  id="b1"> JUGAR </button>
+            </div>
+        </div>   
+    </center>  
+
+    <div id="regresar">
+        <button id="b2"> X </button> 
+    </div> 
+            
+    <div id="delate">
+        <input type="text" id="eli">
+        <button onclick="eliminar(); limpiarInputs()" id="eliminar">ID A ELIMINAR</button>
+    </div>
+       
+    <script src="../JS/Scripts.js"></script>   
 </body>
 </html>

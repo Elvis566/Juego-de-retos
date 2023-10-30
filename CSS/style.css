@@ -36,9 +36,9 @@ body{
        width: 150px;
        height: 200px;
        box-shadow: 5px 5px 10px rgb(47, 48, 37);
-       margin: 30px;
+       margin: 10px;
     }
     #reto{
       margin: 30px;
-      padding: auto;
+      padding: 0;
     }

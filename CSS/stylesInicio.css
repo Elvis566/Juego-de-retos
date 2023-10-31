@@ -21,12 +21,13 @@ body {
     margin: 20px;
     color: rgb(245, 245, 241) ;
 }
-button{
+a{
     border-radius: 5px;
     height: 25px;
     font-family: Pacifico, sans-serif;
     background-color: rgb(94, 94, 243);
     color: white;
+    text-decoration: none;
 }
 
 button:hover{

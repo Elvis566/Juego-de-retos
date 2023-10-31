@@ -12,9 +12,8 @@ function validateLogin(){
         {
            alert("INGRESO EXITOSO")
             const Boton = document.getElementById("miBoton");
-            Boton.addEventListener("click", function(){
-                window.location.href = "../HTML/usuarios.html"
-            })
+          
+                Boton.href = "../HTML/usuarios.html"
         }else{
             alert("USUARIO O CONTRASEÑA INCORRECTOS")
         }

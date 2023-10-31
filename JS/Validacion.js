@@ -1,23 +1,26 @@
-var email = document.getElementById("username").ariaValueMax;
-var password = document.getElementById("password").ariaValueMax;
+var email = document.getElementById("username");
+var password = document.getElementById("password");
 
-var correo = "johanna.e.c@hotmail.com";
-var contraseña = 12345;
+var correo = "elvis";
+var contraseña = "12345";
 
-if(email==correo)
-{
-    if(password==contraseña)
+function validateLogin(){
+    debugger
+    if(email.value===correo)
     {
-        errorMessage.innerHTML="INGRESO EXITOSO"
-        const Boton = document.getElementById("miBoton");
-
-// Agrega un evento de clic al botón
-    Boton.addEventListener("click", function() {
-    // Redirecciona a otra página
-    window.location.href = "../HTML/usuarios.html";
-});
+        if(password.value==contraseña)
+        {
+           alert("INGRESO EXITOSO")
+            const Boton = document.getElementById("miBoton");
+            Boton.addEventListener("click", function(){
+                window.location.href = "../HTML/usuarios.html"
+            })
+        }else{
+            alert("USUARIO O CONTRASEÑA INCORRECTOS")
+        }
+    }else{
+        alert("USUARIO O CONTRASEÑA INCORRECTOS")
     }
-}else{
-    errorMessage.innerHTML="USUARIO O CONTRASEÑA INCORRECTOS"
 }
+
 
